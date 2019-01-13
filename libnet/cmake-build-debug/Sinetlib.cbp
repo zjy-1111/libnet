@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Sinetlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\example\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zzz/CLionProjects/libnet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/zzz/CLionProjects/libnet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sinetlib_static">
+				<Option output="/home/zzz/CLionProjects/libnet/cmake-build-debug/lib/libSinetlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzz/CLionProjects/libnet/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/base"/>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/net"/>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/http"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sinetlib_static"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sinetlib_static/fast">
+				<Option output="/home/zzz/CLionProjects/libnet/cmake-build-debug/lib/libSinetlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzz/CLionProjects/libnet/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/base"/>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/net"/>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/http"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sinetlib_static/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zzz/CLionProjects/libnet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/zzz/CLionProjects/libnet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sinetlib_shared">
+				<Option output="/home/zzz/CLionProjects/libnet/cmake-build-debug/lib/libSinetlib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzz/CLionProjects/libnet/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/base"/>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/net"/>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/http"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sinetlib_shared"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sinetlib_shared/fast">
+				<Option output="/home/zzz/CLionProjects/libnet/cmake-build-debug/lib/libSinetlib.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzz/CLionProjects/libnet/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/base"/>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/net"/>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/http"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sinetlib_shared/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/zzz/CLionProjects/libnet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zzz/CLionProjects/libnet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/zzz/CLionProjects/libnet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http">
+				<Option output="/home/zzz/CLionProjects/libnet/cmake-build-debug/bin/http" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzz/CLionProjects/libnet/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/base"/>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/net"/>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/http"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 http"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http/fast">
+				<Option output="/home/zzz/CLionProjects/libnet/cmake-build-debug/bin/http" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzz/CLionProjects/libnet/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/base"/>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/net"/>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/http"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 http/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echo">
+				<Option output="/home/zzz/CLionProjects/libnet/cmake-build-debug/bin/echo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzz/CLionProjects/libnet/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/base"/>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/net"/>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/http"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 echo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echo/fast">
+				<Option output="/home/zzz/CLionProjects/libnet/cmake-build-debug/bin/echo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zzz/CLionProjects/libnet/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/base"/>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/net"/>
+					<Add directory="/home/zzz/CLionProjects/libnet/src/http"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 echo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zzz/CLionProjects/libnet/cmake-build-debug/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zzz/CLionProjects/libnet/example/echo.cpp">
+			<Option target="echo"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/example/http.cpp">
+			<Option target="http"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/base/util.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/base/util.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/http/file.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/http/file.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/http/filehandler.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/http/filehandler.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/http/httpparser.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/http/httpparser.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/http/httpresponse.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/http/httpresponse.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/http/httpserver.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/http/httpserver.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/http/matcher.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/http/matcher.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/http/route.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/http/route.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/http/router.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/http/router.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/connection.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/connection.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/epoller.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/epoller.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/eventbase.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/eventbase.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/iobuffer.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/iobuffer.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/looper.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/looper.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/looperthread.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/looperthread.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/server.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/server.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/threadpool.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/threadpool.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/timerqueue.cpp">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/src/net/timerqueue.h">
+			<Option target="Sinetlib_static"/>
+			<Option target="Sinetlib_shared"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/zzz/CLionProjects/libnet/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\example\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

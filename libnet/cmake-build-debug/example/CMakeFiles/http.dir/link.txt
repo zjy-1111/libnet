@@ -1,0 +1,1 @@
+g++  -std=c++17 -Wall -O0 -g -ggdb  -rdynamic CMakeFiles/http.dir/http.cpp.o  -o ../bin/http -Wl,-rpath,/home/zzz/CLionProjects/libnet/cmake-build-debug/lib ../lib/liblibnet.so -lpthread 
