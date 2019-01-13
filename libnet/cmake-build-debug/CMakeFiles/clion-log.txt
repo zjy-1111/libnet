@@ -1,6 +1,0 @@
-/home/zzz/Downloads/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zzz/CLionProjects/libnet
--- BUILD_TYPE: Debug
--- CXXFLAGS: -std=c++17 -Wall -O0 -g -ggdb
--- Configuring done
--- Generating done
--- Build files have been written to: /home/zzz/CLionProjects/libnet/cmake-build-debug
